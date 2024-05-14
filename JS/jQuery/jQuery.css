@@ -1,0 +1,53 @@
+.div2_shdw{
+    box-shadow: 10px 10px rgb(216, 211, 211);
+}
+
+.box{
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.img_style{
+    background-image: url('Cake.jpg');
+    background-size: cover;
+}
+
+.para_style{
+    color: yellowgreen;
+}
+
+.bg_clr1{
+    background-color: hotpink;
+}
+
+.bg_clr2{
+    background-color: seagreen;
+}
+
+.p_styleDel{
+    box-shadow: 10px 10px blueviolet;
+}
+
+.add_clr{
+    color: darkmagenta;
+}
+
+
+.ex_box{
+    /* background-color: darkcyan; */
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.ex_box2{
+   border: 2px solid crimson;
+    margin: 10px;
+    height: 100px;
+    padding: 10px;
+    
+}

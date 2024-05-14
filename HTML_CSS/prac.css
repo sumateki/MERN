@@ -1,0 +1,24 @@
+
+.main_div button{
+    background-color: blue;
+    /* font-size: 30px; */
+    padding: 10px 20px;
+    position: relative;
+    margin: 30px;
+   
+}
+
+.child_div {
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 50%; 
+    padding: 10px;
+    color: white;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    /* to set the symbol at corner then use negative values for that direction
+    top , right, left, bottom*/
+
+}
+

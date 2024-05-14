@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        #btn_id{
+            background-color: blue;
+            color: white;
+            width: 100px;
+            height: 40px;
+            
+        }
+        
+        #div1{
+            display: none;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            height: 200px;
+            
+        }
+        #div1 p{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .box{
+            display: none;
+        }
+        .inptxt{
+            background-color: lightgreen;
+            color: black;
+            border: none;
+            height: 40px;
+            margin: 30px;
+        }
+        #btn2{
+            background-color: lightgreen;
+            border: none;
+            color: black;
+            height: 40px;
+            width: 100px;
+        }
+        .acr_btn{
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: left;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            outline: none;
+        }
+        .acr_cls{
+            display: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>----------LIVE ALERT-----------</h1>
+    <button onclick="toOpen()" id="btn_id">Live Alert</button>
+    <div id="div1" class="box">
+        <span onclick="toClose()" id="span_id" class="span_close">&times;</span>
+        <p id="demo1">Thanks for clicking Live Alert!</p>
+    </div>
+    <br><br>
+
+
+    <h1>------------ACCORDION-------------</h1>
+    <button id="acr_btn1" class="acr_btn" onclick="acr('acr_btn1')">Section 1</button>
+    <div id="acr_div1" class="acr_cls">
+        <p>Content for section 1 is here</p>
+    </div>
+
+    <button id="acr_btn2" class="acr_btn" onclick="acr('acr_btn2')">Section 2</button>
+    <div id="acr_div2" class="acr_cls">
+        <p>Content for section 2 is here</p>
+    </div>
+
+    <button id="acr_btn3" class="acr_btn" onclick="acr('acr_btn3')">Section 3</button>
+    <div id="acr_div3" class="acr_cls">
+        <p>Content for section 3 is here</p>
+    </div>
+
+    <button id="acr_btn4" class="acr_btn" onclick="acr('acr_btn4')">Section 4</button>
+    <div id="acr_div4" class="acr_cls">
+        <p>Content for section 4 is here</p>
+    </div>
+
+
+    <input type="text" id="text1" class="inptxt">
+    <input type="text" id="text2" class="inptxt">
+    <input type="text" id="text3" class="inptxt">
+    <button onclick="fun4()" id="btn2">Read Input</button>
+    <p id="demo4">The Triangle is: </p>
+    <br><br>
+
+
+    <script src="practice.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="form2.css" type="text/css">
+</head>
+<body>
+    <form action="blog.html" method="get">
+        <label for="name">Name</label>
+        <input type="text" name="name_inp" id="name">
+
+        <input placeholder="add_city" list="city_name">
+        <!-- datalist tag can be used to showcase the list -->
+        <datalist id="city_name">
+            <option>Bvrm</option>
+            <option>Hyd</option>
+            <option>Vij</option>
+            <option>Del</option>
+        </datalist>
+
+        <input placeholder="Add_Country" list="country_name">
+        <datalist id="country_name">
+            <option value="IND">India</option>
+            <option value="USA">America</option>
+            <option value="UK">London</option>
+            <option value="AU">Australia</option>
+        </datalist>
+
+        <!-- option group -->
+        <select>
+            <optgroup label="Fruits">
+                <option></option>
+                <option>Apple</option>
+                <option>Banana</option>
+                <option>Custard</option>
+            </optgroup>
+
+            <optgroup label="Menu">
+                <option>Biryani</option>
+                <option>Chapatti</option>
+                <option>Noodles</option>
+            </optgroup>
+
+            <optgroup label="Drinks">
+                <option>Pulpy Orange</option>
+                <option>Sprite</option>
+                <option>Thumbs-up</option>
+            </optgroup>
+        </select>
+        <input type="submit">
+        <br><br><br>
+        <!-- <video src="/Video_Audio/file_example_MP4_480_1_5MG.mp4" controls height="150px" width="150px"></video> -->
+
+        <video controls>
+            <source src="Video_Audio/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+            <source src="Video_Audio/file_example_WEBM_480_900KB.webm" type="video/webm">
+        </video>
+        <br><br>
+        <audio controls>
+            <source src="Video_Audio/file_example_MP3_700KB.mp3" type="audio/mp3">
+            <source src="Video_Audio/file_example_OGG_480_1_7mg.ogg" type="audio/ogg">
+        </audio>
+
+        <br><br><br>
+        <iframe src="form.html" frameborder="1" width="50%" height="280px"></iframe>
+        <br><br><br>
+
+        <!-- maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1995.1714083205761!2d81.61888767163404!3d16.606794742020906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37cf757168a49b%3A0x7d365aee451bf6dd!2sSivalayam!5e0!3m2!1sen!2sin!4v1692468780410!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122389.03663314552!2d81.36848282629317!3d16.543385204266496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37d2a6a86d3e4b%3A0x4eed21243d2dcfed!2sBhimavaram%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1692468885198!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br><br><br>
+        <!-- video from utube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CQ_iOFzGjpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tju12MrW3KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </form>
+</body>
+</html>

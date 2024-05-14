@@ -1,0 +1,55 @@
+.transform_css{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    margin: 30px;
+    /* transform: translate(20px, 150px); */
+    /* transform: translateY(120px); */
+    /* transform: translateX(30px); */
+    /* transform: translateZ(1px); */
+    /* always write transition in main cls */
+    /* transition: transform 4s;  it applies time on transform to reach the ele at desired place */
+    /* transition: width 3s;
+    transition: font-size 4s; */
+    transition: all 3s;  /*at a time all transforms will work*/
+}
+
+.transform_css:hover{
+    /* transform: translate(120px, 50px); */
+    /* transform: scale(0.5); /*dec the org height*/
+    /* transform: scale(1); /*same as the org height*/
+    /* transform: scale(2); inc 2times of the org height */ 
+    /* transform: scaleX(2);
+    transform: scaleY(2); */
+    /* width: 500px;
+    font-size: 50px;
+    height: 400px;*/
+    /* transform: rotateX(180deg);
+    transform: rotateY(180deg); */
+    transform: rotate(360deg);
+} 
+
+
+.img_div{
+    border: 2px solid red;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    /* background-clip: content-box; */
+    background-size: cover;
+    overflow: hidden;  /*it'll not overflow out of boundary*/
+    
+    
+}
+
+.img_div img{
+    width: 500px;
+    height: 400px;
+transition: 3s;
+}
+
+.img_div:hover img{
+    transform: scale(2);
+    
+}

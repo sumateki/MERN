@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    height: 2000px;
+}
+
+.nav_style{
+    background-color: lightblue;
+    /* when the body has lot of content then the  content which is in navbar
+    also gone when u scroll down
+    to fix this u can use position:sticky; means aftr u scroll down the navbar visible at top
+    it cannot be invisible even if u scroll down it still visibbles at top of the page*/
+    position: sticky; /*will not work with bottom it will stick to the body*/
+    /* position: fixed;  will work with bottom*/
+    /* it just takes the required amt of place it needs 
+    mostly used it with footer part */
+    top: 0px;
+    z-index: 2; /*decides the priority*/
+
+}
+
+.nav_style ul{
+    margin: 0px;  /*it is taken bcoz by default the ul has some top and bottom mrgin
+    so to remove that we shoud take margin as 0px */
+    padding: 20px;
+}
+
+.nav_style ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;  /*tb rl*/
+}
+
+.nav_style ul li a{
+    text-decoration: none;
+    color: darkred;
+}
+
+.div_style{
+    border: 1px solid gray;
+    width: 150px;
+    position: sticky;
+    
+    /* height: 1000px; */
+    top: 60px;
+    
+}
+.div_style img{
+    display: block;
+    /* padding: 5px; */
+    width: 150px;
+    height: 180px;
+    z-index: 3;
+    /* vertical-align: middle; */
+}
+
+
+.overflow_css{
+    background-color: blueviolet;
+    position: sticky;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 10px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* margin-left: auto; */
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    z-index: 2;
+    /* overflow: hidden; hides the out of border data */
+     overflow-y: scroll;/* gives scroll to the data on y-axis which is hidden  */
+     /* overflow-x: scroll; gives x-axis scroll */
+     /* overflow: scroll; gives vertical and horizontal scroll */
+     /* overflow: auto; gives automatic response (scroll)  */
+}
+

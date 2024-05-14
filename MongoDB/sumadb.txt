@@ -1,0 +1,239 @@
+test> show dbs
+
+
+test> use suma
+switched to db suma
+
+
+suma> db.createCollection("students")
+{ ok: 1 }
+
+
+show collections
+students
+
+
+db.students.insertOne({"id": 1, "name": "Suma Teki", "age": 22, "course": "CSE"})
+
+
+db.students.find()
+
+
+db.students.insertMany([{"id": 5, "name": "Sowji Panchakarla", "age": 21, "course": "CSE"},
+... {
+...     "id": 6,
+...     "name": "Nagendra Thatavarthi",
+...     "age": 23,
+...     "course": "IT"
+... },
+... {
+...     "id": 7,
+...     "name": "Dileep Tammana",
+...     "age": 23,
+...     "course": "CSE"
+... },
+... {
+...     "id": 8,
+...     "name": "Vikas Gurrapu",
+...     "age": 22,
+...     "course": "IT"
+... },
+... {
+...     "id": 9,
+...     "name": "Siva Kishore",
+...     "age": 23,
+...     "course": "CIVIL"
+... }])
+
+
+db.students.find({"name": "Suma Teki"})
+
+
+db.students.find({}, {"name" : 1})
+
+
+db.students.find({}, {"name" : 1, "_id": 0})
+
+
+db.students.findOne({"id" : 5})
+
+
+db.students.findOne({"id" : 5}, {})
+
+
+db.students.findOne({"id" : 5}).skip(2)
+
+
+db.students.findOne({"id" : 5}).skip(2).limit(1)
+
+
+db.students.update({"id" : 2},{$set:{"age": 21}})
+
+
+db.students.updateOne({"id" : 1},{$set:{"name": "Suma"}})
+
+
+//it updates multiple records who are having the course CSE and IT chnages to SOFTWARE
+// using $in and $set operators
+// in the place of course you can take any filter cond like _id, id, name, course, age,....
+
+db.students.updateMany({course:{$in:["CSE", "IT"]}},{$set:{course:"Software"}})
+
+
+//all the fields set to gender female
+db.students.updateMany(
+    {},
+    {
+        $set:{
+            "gender": "Female"
+        }
+    }
+)
+
+
+//all the doc removes age
+db.students.updateMany(
+    {},
+    {
+        $unset:{"age" : " "}
+    }
+)
+
+//remove age from required documnets 
+db.students.updateMany(
+    {id:{$in:[ 2,5,7]}},
+    {
+        $unset:{"age" : " "}
+    }
+)
+
+
+
+
+//to del particular doc
+db.students.remove({id:9})
+
+
+// to del one doc 
+db.students.deleteOne({course: 'cse'})
+
+
+// to del multiple doc 
+db.students.deleteMany({age: 21})
+
+
+//to empty the collection then use
+db.students.deleteMany({})
+db.students.remove({})
+
+
+
+
+
+
+//--------------- Aggregation-------
+//multiple aggregate sample structure
+
+db.universities.aggregate([
+    {},
+    {},
+    {}
+])
+
+//display all the universities whose city is Salamanca
+db.universities.aggregate([
+    {
+        $match: {
+            city: 'Salamanca',
+        }
+    }
+])
+
+
+// returns only particluar records
+db.universities.aggregate([
+    {
+        $project: {
+           name : 1,
+           location : 1,
+           _id : 0
+        }
+    }
+]).pretty()
+
+
+
+// merging match and project into single
+db.universities.aggregate([
+    {
+        $match : {
+            name: "UPSA"
+        }
+    },
+    {
+        $project: {
+            name : 1,
+            students : 1,
+            _id : 0
+        }
+    }
+]).pretty()
+
+
+
+// the data will be stored in $out 
+// out will acts as a new collection
+db.universities.aggregate([
+    {
+        $match : {
+            name: "UPSA"
+        }
+    },
+    {
+        $project: {
+            name : 1,
+            students : 1,
+            _id : 0
+        }
+    },
+    {
+        $out: "Tempcoll"
+    }
+]).pretty()
+
+
+
+// how many documnets
+db.universities.aggregate([
+    {
+        $group: {
+            _id: "$name"  // In $name, $ references to the name value
+
+        }
+    }
+])
+
+
+//getting mal sal from each dept.
+db.employees.aggregate([
+    {
+        $group:{
+            _id: "$department", 
+            maxSalary:{
+                $max : "$salary"
+            }
+        }
+    }
+])
+
+
+
+
+
+
+
+
+
+
+
+

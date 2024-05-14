@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <h2>JS Objects</h2>
+    <p>2ways for accessing the obj property</p>
+    <p> object.property or object['property'] </p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        //create obj
+        const Student = {
+            name: 'Suma Teki',
+            age: 22,
+            email: 'suma@gmail.com',
+            contact: 1234567534
+        }
+
+        //obj method
+        const Person = {
+            fname: 'Suma',
+            lname: 'Teki',
+            id: 523,
+            fullName: function(){
+                return this.fname + " " + this.lname
+            }
+        }
+
+        //display some data from obj
+        document.getElementById('demo').innerHTML = 
+        `My name is ${Student.name} and I'm ${Student['age']} years old!!`
+
+        document.getElementById('demo1').innerHTML = Person.fullName()
+    </script>
+</body>
+</html>

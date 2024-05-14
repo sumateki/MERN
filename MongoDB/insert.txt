@@ -1,0 +1,144 @@
+
+[{
+    "id": 1, 
+    "name": "Suma Teki", 
+    "age": 22, 
+    "course": "CSE",
+    "gender": "Female"
+},
+{
+    "id": 2, 
+    "name": "Sowji Panchakarla", 
+    "age": 21, 
+    "course": "CSE",
+    "gender": "Female"
+},
+{
+    "id": 3, 
+    "name": "Pooja Bunga", 
+    "age": 23, 
+    "course": "CSE",
+    "gender": "Female"
+},
+{
+    "id": 4, 
+    "name": "Jaanu Velagala", 
+    "age": 21, 
+    "course": "CSE",
+    "gender": "Female"
+},
+{
+    "id": 5, 
+    "name": "Lucky Grandhi", 
+    "age": 21, 
+    "course": "CSE",
+    "gender": "Female"
+},
+{
+    "id": 6, 
+    "name": "Nagendra Thatavarthi", 
+    "age": 23, 
+    "course": "IT",
+    "gender": "Male"
+},
+{
+    "id": 7, 
+    "name": "Dileep Tammana", 
+    "age": 23, 
+    "course": "CSE",
+    "gender": "Male"
+},
+{
+    "id": 8, 
+    "name": "Vikas Gurrapu", 
+    "age": 22, 
+    "course": "IT",
+    "gender": "Male"
+},
+{
+    "id": 9, 
+    "name": "Siva Kishore", 
+    "age": 23, 
+    "course": "CIVIL",
+    "gender": "Male"
+},
+{
+    "id": 10, 
+    "name": "Karthik K", 
+    "age": 23, 
+    "course": "Mech",
+    "gender": "Male"
+},
+{
+    "id": 11, 
+    "name": "Priya Chodisetti", 
+    "age": 23, 
+    "course": "ECE",
+    "gender": "Female"
+},
+{
+    "id": 12, 
+    "name": "Chomu Kodavati", 
+    "age": 22, 
+    "course": "CSDS",
+    "gender": "Female"
+}]
+
+
+
+
+db.universities.insertMany([
+    {
+    country : 'Spain',
+    city : 'Salamanca',
+    name : 'USAL',
+    location : {
+        type : 'Point',
+        coordinates : [ -5.6722512,17, 40.9607792 ]
+    },
+    students : [
+        { year : 2014, number : 24774 },
+        { year : 2015, number : 23166 },
+        { year : 2016, number : 21913 },
+        { year : 2017, number : 21715 }
+    ]
+    },
+    {
+    country : 'Spain',
+    city : 'Salamanca',
+    name : 'UPSA',
+    location : {
+        type : 'Point',
+        coordinates : [ -5.6691191,17, 40.9631732 ]
+    },
+    students : [
+        { year : 2014, number : 4788 },
+        { year : 2015, number : 4821 },
+        { year : 2016, number : 6550 },
+        { year : 2017, number : 6125 }
+    ]
+    }
+])
+
+
+
+db.courses.insertMany([
+    {
+    university : 'USAL',
+    name : 'Computer Science',
+    level : 'Excellent'
+    },
+    {
+    university : 'USAL',
+    name : 'Electronics',
+    level : 'Intermediate'
+    },
+    {
+    university : 'USAL',
+    name : 'Communication',
+    level : 'Excellent'
+    }
+])
+
+
+

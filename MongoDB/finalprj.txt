@@ -1,0 +1,450 @@
+[
+    {
+    "address": {
+        "building": "1007",
+        "coord": [ -73.856077, 40.848447 ],
+        "street": "Mall Road Mussorrie",
+        "zipcode": "10462"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        { "date": { "$date": 1393804800000 }, "grade": "A", "score": 2 },
+        { "date": { "$date": 1378857600000 }, "grade": "A", "score": 6 },
+        { "date": { "$date": 1358985600000 }, "grade": "A", "score": 10 },
+        { "date": { "$date": 1322006400000 }, "grade": "A", "score": 9 },
+        { "date": { "$date": 1299715200000 }, "grade": "B", "score": 14 }
+    ],
+    "name": "Morris Bake Shop",
+    "restaurant_id": "30075445"
+    },
+    
+    {
+    "address": {
+        "building": "786",
+        "coord": [-73.987701, 40.722344],
+        "street": "Broadway",
+        "zipcode": "10003"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1414281600000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1399420800000}, "grade": "B", "score": 15},
+        {"date": {"$date": 1369699200000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1337731200000}, "grade": "A", "score": 7},
+        {"date": {"$date": 1304443200000}, "grade": "B", "score": 12}
+    ],
+    "name": "Cafeteria Delight",
+    "restaurant_id": "30075446"
+    },
+
+    {
+    "address": {
+        "building": "654",
+        "coord": [-73.945274, 40.829760],
+        "street": "Lexington Avenue",
+        "zipcode": "10029"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1401235200000}, "grade": "A", "score": 11},
+        {"date": {"$date": 1376112000000}, "grade": "B", "score": 14},
+        {"date": {"$date": 1346438400000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1317331200000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1289088000000}, "grade": "B", "score": 10}
+    ],
+    "name": "Morris Cafe & Bakery",
+    "restaurant_id": "30075447"
+    },
+
+    {
+    "address": {
+        "building": "325",
+        "coord": [-73.987256, 40.773770],
+        "street": "5th Avenue",
+        "zipcode": "10016"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1397260800000}, "grade": "A", "score": 10},
+        {"date": {"$date": 1376332800000}, "grade": "B", "score": 12},
+        {"date": {"$date": 1346716800000}, "grade": "A", "score": 7},
+        {"date": {"$date": 1315584000000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1299715200000}, "grade": "B", "score": 15}
+    ],
+    "name": "Cafeteria Joy",
+    "restaurant_id": "30075448"
+    },
+
+    {
+    "address": {
+        "building": "234",
+        "coord": [-73.988625, 40.736671],
+        "street": "Park Avenue",
+        "zipcode": "10010"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1408636800000}, "grade": "A", "score": 85},
+        {"date": {"$date": 1384992000000}, "grade": "B", "score": 10},
+        {"date": {"$date": 1359676800000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1326844800000}, "grade": "A", "score": 90},
+        {"date": {"$date": 1304592000000}, "grade": "B", "score": 14}
+    ],
+    "name": "Morning Dew Bakery",
+    "restaurant_id": "30075449"
+    },
+
+    {
+    "address": {
+        "building": "723",
+        "coord": [-73.955462, 40.778873],
+        "street": "Madison Avenue",
+        "zipcode": "10021"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1412553600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1381363200000}, "grade": "B", "score": 13},
+        {"date": {"$date": 1356912000000}, "grade": "A", "score": 7},
+        {"date": {"$date": 1330492800000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1299254400000}, "grade": "B", "score": 11}
+    ],
+    "name": "Cafeteria Bliss",
+    "restaurant_id": "30075450"
+    },
+
+    {
+    "address": {
+        "building": "342",
+        "coord": [-73.982137, 40.769748],
+        "street": "3rd Avenue",
+        "zipcode": "10016"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1406313600000}, "grade": "A", "score": 89},
+        {"date": {"$date": 1382179200000}, "grade": "B", "score": 11},
+        {"date": {"$date": 1357776000000}, "grade": "A", "score": 85},
+        {"date": {"$date": 1334716800000}, "grade": "A", "score": 87},
+        {"date": {"$date": 1301428800000}, "grade": "B", "score": 14}
+    ],
+    "name": "Morning Sun Bakery",
+    "restaurant_id": "30075451"
+    },
+
+    {
+    "address": {
+        "building": "432",
+        "coord": [-73.966792, 40.802112],
+        "street": "Lexington Avenue",
+        "zipcode": "10017"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1390579200000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1371600000000}, "grade": "B", "score": 12},
+        {"date": {"$date": 1346889600000}, "grade": "A", "score": 7},
+        {"date": {"$date": 1315862400000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1289088000000}, "grade": "B", "score": 10}
+    ],
+    "name": "Cafeteria Delish",
+    "restaurant_id": "30075465"
+    },
+
+    {
+    "address": {
+        "building": "456",
+        "coord": [-73.984245, 40.726923],
+        "street": "Broadway",
+        "zipcode": "10002"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1412121600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1388534400000}, "grade": "B", "score": 13},
+        {"date": {"$date": 1364899200000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1332633600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1299436800000}, "grade": "B", "score": 12}
+    ],
+    "name": "Cafeteria Oasis",
+    "restaurant_id": "30075452"
+    },
+
+    {
+    "address": {
+        "building": "789",
+        "coord": [-73.978171, 40.751320],
+        "street": "5th Avenue",
+        "zipcode": "10010"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1403942400000}, "grade": "A", "score": 92},
+        {"date": {"$date": 1373894400000}, "grade": "B", "score": 11},
+        {"date": {"$date": 1349020800000}, "grade": "A", "score": 89},
+        {"date": {"$date": 1323763200000}, "grade": "A", "score": 86},
+        {"date": {"$date": 1301414400000}, "grade": "B", "score": 15}
+    ],
+    "name": "Morning Star Bakery",
+    "restaurant_id": "30075453"
+    },
+
+    {
+    "address": {
+        "building": "567",
+        "coord": [-73.946693, 40.825339],
+        "street": "Lexington Avenue",
+        "zipcode": "10028"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1407964800000}, "grade": "A", "score": 10},
+        {"date": {"$date": 1382668800000}, "grade": "B", "score": 12},
+        {"date": {"$date": 1358563200000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1328947200000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1302211200000}, "grade": "B", "score": 14}
+    ],
+    "name": "Cafeteria Euphoria",
+    "restaurant_id": "30075454"
+    },
+
+    {
+    "address": {
+        "building": "876",
+        "coord": [-73.991144, 40.741369],
+        "street": "Broadway",
+        "zipcode": "10011"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1400198400000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1370985600000}, "grade": "B", "score": 10},
+        {"date": {"$date": 1347321600000}, "grade": "A", "score": 85},
+        {"date": {"$date": 1317427200000}, "grade": "A", "score": 87},
+        {"date": {"$date": 1290230400000}, "grade": "B", "score": 13}
+    ],
+    "name": "Morning Dew Cafeteria",
+    "restaurant_id": "30075455"
+    },
+
+    {
+    "address": {
+        "building": "345",
+        "coord": [-73.982673, 40.764439],
+        "street": "Lexington Avenue",
+        "zipcode": "10022"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1399603200000}, "grade": "A", "score": 11},
+        {"date": {"$date": 1370841600000}, "grade": "B", "score": 14},
+        {"date": {"$date": 1345728000000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1316246400000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1291017600000}, "grade": "B", "score": 12}
+    ],
+    "name": "Cafeteria Serenity",
+    "restaurant_id": "30075456"
+    },
+
+    {
+    "address": {
+        "building": "123",
+        "coord": [-73.984832, 40.748924],
+        "street": "5th Avenue",
+        "zipcode": "10016"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1411968000000}, "grade": "A", "score": 89},
+        {"date": {"$date": 1386201600000}, "grade": "B", "score": 13},
+        {"date": {"$date": 1356998400000}, "grade": "A", "score": 86},
+        {"date": {"$date": 1324531200000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1293273600000}, "grade": "B", "score": 15}
+    ],
+    "name": "Morning Joy Cafeteria",
+    "restaurant_id": "30075457"
+    },
+
+    {
+    "address": {
+        "building": "876",
+        "coord": [-73.984625, 40.737388],
+        "street": "Broadway",
+        "zipcode": "10003"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1405948800000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1381411200000}, "grade": "B", "score": 12},
+        {"date": {"$date": 1357516800000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1325376000000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1294276800000}, "grade": "B", "score": 11}
+    ],
+    "name": "Cafeteria Paradise",
+    "restaurant_id": "30075458"
+    },
+
+    {
+    "address": {
+        "building": "234",
+        "coord": [-73.985310, 40.758894],
+        "street": "Madison Avenue",
+        "zipcode": "10017"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1414492800000}, "grade": "A", "score": 90},
+        {"date": {"$date": 1376995200000}, "grade": "B", "score": 11},
+        {"date": {"$date": 1348310400000}, "grade": "A", "score": 85},
+        {"date": {"$date": 1325481600000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1302076800000}, "grade": "B", "score": 14}
+    ],
+    "name": "Morning Light Cafeteria",
+    "restaurant_id": "30075459"
+    },
+
+    {
+    "address": {
+        "building": "987",
+        "coord": [-73.984205, 40.726554],
+        "street": "Broadway",
+        "zipcode": "10002"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1412121600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1388534400000}, "grade": "B", "score": 13},
+        {"date": {"$date": 1364899200000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1332633600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1299436800000}, "grade": "B", "score": 12}
+    ],
+    "name": "Cafeteria Dreamland",
+    "restaurant_id": "30075460"
+    },
+
+    {
+    "address": {
+        "building": "567",
+        "coord": [-73.950447, 40.782634],
+        "street": "Park Avenue",
+        "zipcode": "10021"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1414492800000}, "grade": "A", "score": 91},
+        {"date": {"$date": 1374566400000}, "grade": "B", "score": 10},
+        {"date": {"$date": 1349990400000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1318502400000}, "grade": "A", "score": 89},
+        {"date": {"$date": 1290172800000}, "grade": "B", "score": 15}
+    ],
+    "name": "Morning Glory Cafeteria",
+    "restaurant_id": "30075461"
+    },
+
+    {
+    "address": {
+        "building": "123",
+        "coord": [-73.985239, 40.748445],
+        "street": "5th Avenue",
+        "zipcode": "10016"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1400812800000}, "grade": "A", "score": 10},
+        {"date": {"$date": 1370918400000}, "grade": "B", "score": 11},
+        {"date": {"$date": 1348809600000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1323292800000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1294521600000}, "grade": "B", "score": 12}
+    ],
+    "name": "Cafeteria Dream",
+    "restaurant_id": "30075462"
+    },
+
+    {
+    "address": {
+        "building": "876",
+        "coord": [-73.986124, 40.738665],
+        "street": "Broadway",
+        "zipcode": "10003"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1413312000000}, "grade": "A", "score": 87},
+        {"date": {"$date": 1388467200000}, "grade": "B", "score": 12},
+        {"date": {"$date": 1364352000000}, "grade": "A", "score": 86},
+        {"date": {"$date": 1332096000000}, "grade": "A", "score": 88},
+        {"date": {"$date": 1299436800000}, "grade": "B", "score": 13}
+    ],
+    "name": "Morning Cafe & Bakery",
+    "restaurant_id": "30075463"
+    },
+
+    {
+    "address": {
+        "building": "345",
+        "coord": [-73.982673, 40.764439],
+        "street": "Lexington Avenue",
+        "zipcode": "10022"
+    },
+    "cuisine": "Bakery",
+    "grades": [
+        {"date": {"$date": 1412121600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1388534400000}, "grade": "B", "score": 13},
+        {"date": {"$date": 1364899200000}, "grade": "A", "score": 8},
+        {"date": {"$date": 1332633600000}, "grade": "A", "score": 9},
+        {"date": {"$date": 1299436800000}, "grade": "B", "score": 12}
+    ],
+    "name": "Cafeteria Harmony",
+    "restaurant_id": "30075464"
+    }
+]
+
+
+
+1. Write a MongoDB query to display the fields restaurant_id, name, and zip code but exclude the field _id for all the documents in the collection restaurant.
+
+- db.restaurants.find({}, { _id: 0, restaurant_id: 1, name: 1, "address.zipcode": 1 })
+
+2. Write a MongoDB query to arrange the name of the restaurants in ascending order along with all the columns.
+
+- db.restaurants.find().sort({"name":1})
+
+3. Write a MongoDB query to display the first 5 restaurant in ascending order of name field.
+
+- db.restaurants.find().sort({"name":1}).limit(5)
+
+4. Write a MongoDB query to display the next 5 restaurants after skipping first 5.
+
+- db.restaurants.find().sort({ "name": 1 }).skip(5).limit(5)
+
+5. Write a MongoDB query to find the restaurants who achieved a score more than 90.
+
+- db.restaurants.find({ "grades.score": { $gt: 90 } })
+
+6. Write a MongoDB query to find the restaurants that achieved a score, more than 80 but less than 100.
+
+- db.restaurants.find({ "grades.score": { $gt: 80, $lt: 100} })
+
+7. Write a MongoDB query to find the restaurant name, longitude and latitude and cuisine for those restaurants which contain 'Caf' as first three letters of its name.
+
+- db.restaurants.find(
+    { "name": { $regex: /^Caf/i } }, 
+    { "name": 1, "address.coord": 1, "cuisine": 1, "_id": 0 }
+  )
+
+8. Write a MongoDb query to update grade B to A in all documents.
+
+- db.restaurants.updateMany(
+    { "grades.grade": "B" },
+    { $set: { "grades.$[elem].grade": "A" } },
+    { arrayFilters: [{ "elem.grade": "B" }] }
+  )
+
+
+
+
+
+
+
+
+

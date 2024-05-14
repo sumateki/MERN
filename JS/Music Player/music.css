@@ -1,0 +1,11 @@
+#demo1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sng_img{
+    width: 100px;
+    margin-right: 10px;
+    /* height: 100px; */  
+}

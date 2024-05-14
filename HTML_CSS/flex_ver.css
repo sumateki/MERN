@@ -1,0 +1,57 @@
+.main_div{
+    border: 2px solid olive;
+    padding: 20px;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    /* for vertical flex it is mandatory to use align-items 
+    when we are working with display-table and all it is very useful for that*/
+}
+
+.child_div{
+    border: 2px solid blue;
+    padding: 40px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box; 
+    /* whenever we use box-sizing as border-box then the size donot inc aftr inc padding 
+    it'll take padding inside but will not effect the height and width
+    will not  inc element keep the ele as same as bfr*/
+} 
+
+
+.main_div2{
+    border: 2px solid darkorange;
+    background-color: lightgreen;
+    padding: 20px;
+    height: 500px;
+    display: flex;
+}
+
+.main_div2 div{
+    /* for individual styling 
+    for tdoing this we cn save code space 
+    else we've to write these lines of code in below 3 child-divs
+    in-order todo that we'll take it as in this*/
+    border: 3px solid darkred;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.child_div2{
+    align-self: flex-start;
+}
+
+.child_div3{
+    align-self: center;
+}
+
+.child_div4{
+    align-self: flex-end;
+}

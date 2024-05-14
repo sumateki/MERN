@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "name": "js",
+  "version": "1.0.0",
+  "main": "ses2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

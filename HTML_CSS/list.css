@@ -1,0 +1,89 @@
+body{
+    background-color: darkslategray;
+    margin: 16px;
+}
+  
+ul{
+    color: crimson;
+    text-align: center;
+    background-color: #5ccace;
+    width: 200px;
+    
+}
+ol{
+    color: lightseagreen;
+    text-align: center;
+    background-color: goldenrod;
+    width: 200px;
+    
+}
+li{
+    
+    /* display: inline; */
+    /* list-style-type: square;
+    list-style-type: disc;
+    list-style-type: circle; */
+    list-style-type: none;
+    display: block;
+    background-color: rgb(207, 205, 206);
+    
+
+    
+}
+div{
+    margin: 14px;
+    height: 150px;
+    text-align: center;
+    color:darkred
+    
+}
+p{
+    background-color: rgb(37, 86, 131);
+    color: rgb(114, 192, 13);
+}
+
+/* without using display-block the margin-left-right-auto cannot work */
+img{
+    width: 250px;
+    height: 150px;
+    display: block;
+    /* margin: 16px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+/* use #for the  id  and 
+if you want to apply individual color for single set of "li" then use along with parent*/
+#ul_1 li{
+    background-color:lightyellow;
+    color: brown;
+}
+
+#ul_2 li{
+    background-color:lightblue;
+    color:maroon
+}
+
+#div_1 {
+    background-color: cornsilk;
+    color: blueviolet;
+}
+
+#div_2{
+    background-color: honeydew;
+    color:darkred;
+}
+
+/* to remove the underline for link  use "text-decoration" and change the color */
+#a_1 {
+    color:dodgerblue;
+    display: inline;
+    text-decoration: none;
+    
+}
+h1{
+    background-color: lightcoral;
+    text-align: center;
+    /* color: darkblue; */
+}

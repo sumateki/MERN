@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Practice</title>
+    <link rel="stylesheet" href="../../HTML & CSS/fontawesome-free-6.4.2-web/css/all.css">
+    <style>
+        body{
+            background-color: rgb(221, 217, 217);
+        }
+        .div_cls1{
+            color: darkcyan;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        #div2{
+            border: 2px solid white;
+            width: 100%;
+            height: auto;
+            display: flex;
+        }
+        #img_style{
+            width: 500px;
+            height: 500px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="div1" class="div_cls1">
+        <!-- <div id="div2" class="div_cls2"></div> -->
+        <button id="bck_btn" onclick="back_btn()">
+            <i id="bckwrd" class="fa-solid fa-backward" style="color: #1e1e20;"></i>
+        </button>
+        <button id="frw_btn" onclick="frwrd_btn()">
+            <i id="frwrd" class="fa-solid fa-forward" style="color: #1e1e20;"></i>
+        </button>
+          
+    </div>
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="prc.js"></script>
+</body>
+</html>

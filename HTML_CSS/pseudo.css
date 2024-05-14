@@ -1,0 +1,193 @@
+/* direct hover */
+
+.btn1{
+    border: 2px solid navy;
+    padding: 10px 20px;
+}
+
+.btn1:hover{
+    background-color: crimson;
+}
+
+/* sibling hover */
+.div1{
+    background-color: palevioletred;
+    padding: 0px 20px;
+}
+/* .div1:hover{
+    color: maroon;
+    background-color: olive;
+} */
+
+/* div1 is a parent in that the "p" is child atg
+the hovering applies to p */
+/* hover on parent then result will get on child */
+.div1:hover p{
+    color: slateblue;
+}
+.div1:hover h1{
+    color: dodgerblue;
+}
+
+.div2{
+    background-color: darkolivegreen;
+    padding: 20px;
+}
+
+/* hide element first then display it while hovering */
+.div2 p{
+    /* p will disappear*/
+    /* display: none;  */
+    /* only hides content not the tag. the space for p tag still there*/
+    visibility: hidden; 
+    
+     
+
+}
+
+.div2:hover p{
+     /*will show p while hovering  on it*/
+    /* display: block; */
+
+    visibility: visible;
+    
+
+}
+
+.div3{
+    background-color: cadetblue;
+    padding: 20px;
+}
+.div3 img{
+    height: 200px;
+    width: 300px;
+    display: none;
+}
+
+.div3:hover img{
+    display: inline-block;
+}
+
+input[type="text"]:focus + input[type="submit"]{
+    background-color: red;
+}
+
+/* input[type="submit"]{
+    background-color: indianred;
+} */
+/* input[type="submit"]:hover{
+    background-color: greenyellow;
+} */
+
+.link_style:link{
+    /* link bfr visiting */
+    color: maroon;
+}
+.link_style:visited{
+    /* once we visited the link then it turns into green */
+    color: green;
+}
+.link_style:hover{
+    /* when u hover onit */
+    color:navy
+}
+.link_style:active{
+    /* when u click on it */
+    color: darkgoldenrod;
+}
+
+
+.text1::first-line{
+    /* frst line got chnaged */
+    color:brown;
+}
+
+.text1::first-letter{
+    /* frst ltr got changed */
+    color: aqua;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.text1::selection{
+    /* while selecting the text */
+    background-color: forestgreen;
+    color: white;
+}
+
+
+/* create element means adding data to html using css */
+.text2{
+    color: red;
+}
+.text2::before{
+    /* bfr the content it will add */
+    /* content: '1996 '; */
+    content: '';
+    height: 40px;
+    width: 40px;
+
+    /* background-color: red; */
+    background-image: url('/img/tick-blue.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    /* margin: 10px; */
+
+}
+.text2::after{
+    /* add content to aftr the actual content */
+    /* content: ' 2002'; */
+    content: '';
+    height: 40px;
+    width: 40px;
+    /* background-color: red; */
+    background-image: url('/img/tick-blue.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    /* margin: 10px; */
+}
+
+.sec1{
+    color: darkmagenta;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+  
+}
+.sec1::before {
+    content: '';
+    height: 100px;
+    width: 30px;
+    background-image: linear-gradient(brown, black);
+
+}
+.sec1::after {
+    content: '';
+    height: 100px;
+    width: 30px;
+    background-image: linear-gradient(brown, black);
+
+}
+
+.sec2{
+    color: darkmagenta;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.sec2::before {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background-image: linear-gradient(brown, black);
+
+}
+.sec2::after {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background-image: linear-gradient(brown, black);
+
+}

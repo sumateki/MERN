@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css" type="text/css">
+    <style>
+        .box{
+            height:200px;
+            width: 200px;
+            border: 2px solid blue;
+            margin: 30px;
+            overflow: scroll;
+        }
+        .img_style{
+            height: 60px;
+            width: 60px;
+        }
+        .heading_style{
+            font-style: italic;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- calling via id name -->
+    <p id="demo1"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa exercitationem, animi ullam doloremque quod laudantium dolore, repellendus doloribus similique perferendis nisi fugiat iusto earum facere illo assumenda totam accusamus quo.</b></p>
+    
+    <p id="demo2">old_para</p>
+    <!-- <button onclick="alert('Hey Suma!!')">Click Me</button> -->
+    <button onclick="fun1()">Click Me</button> <br><br>
+    
+    <input type="text" placeholder="Enter Your Name" id="inp1">
+    <button onclick="fun2()">Read Input</button>
+    <p id="demo3">Username is : </p>
+
+    <button onclick="fun3()">add image</button>
+    <div class="box" id="div1"></div>
+
+
+    <!-- calling ele via class name -->
+    <h1 class="heading_style">Hey Suma</h1>
+    <h2 class="heading_style">Hey Teki</h2>
+    <h3 class="heading_style">Hey Sumasri</h3>
+
+    <button onclick="fun4()">Add color</button>
+
+
+
+
+
+    <script src="dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+MONGODB COMMANDS
+- show dbs
+- use dbName
+- db.createCollection("tableName")
+- show tableName
+- db.tableName.insertOne({})
+- db.tableName.insertMany([{},{},...])
+- db.tableName.find()
+- db.tableName.find().pretty()
+- db.tableName.count()
+- db.tableName.find({filter condition})
+- db.tableName.find({filter condition}, {projection conditions})
+- db.tableName.findOne({filter condition})
+- db.tableName.findOne({filter condition}, {projection conditions})
+- db.tableName.find({filter condition}).skip(number)
+- db.tableName.find({filter condition}).skip(number).limit(number)
+- db.tableName.updateOne({filter condition}, {$set:{to be updated data}})
+- db.tableName.updateMany({filter conditions}, {$set:{to be updated data}})
+- db.tableName.updateOne({filter conditions}, {$unset:{to be updated data}})
+- db.tableName.updateMany({filter conditions}, {$unset:{to be updated data}})
+- db.tableName.remove({filter condition})
+- db.tableName.deleteOne({filter condition})
+- db.tableName.deleteMany({filter condition})
+
+
+
+MONGODB OPERATORS
+- $set     --> used to set / update any document
+- $in
+- $unset   --> used to remove any property from collection
+
+  **Aggregation and some more operations
+
+    - $match     --> returns the matched doc
+    - $project   --> returns only particluar records
+    - $out       --> acts as new collection, all the filtered data stored in this and it should be write at last not at frst n middle
+
+- $group  --> supports certain exp(op) allowing users to perform arithmetic, array, boolen nd other operations as part of the Aggregation pipeline.
+
+      1. $count  --> cal quantity of doc inthe gvn group
+      2. $max    --> max val of a doc's field in collection
+      3. $min    --> min val of a doc's field in collection
+      4. $avg    --> avg val of a doc's field in collection
+      5. $sum    --> sums up specified val of all doc in collection
+      6. $push   --> adds xtra values into arr of resulting document
+
+- $unwind  --> it outputs the document for several times, once for every ele of that array.
+- $sort    --> sorts the ele in doc either in ascendidng or descending order
+               **acsending order : 1
+               **descending order : -1
+- $limit   --> for that particular limit only the ele will be displayed
+- $skip    --> for that particluar no.of ele it'll skip to display
+- $lookup  --> just like joins in sql, it also used to fetch data from multiple collectons
+           --> have 4 properties we must use
+      $lookup: {
+        from: 'courses',
+        localField: 'name',
+        foreignField: 'university',
+        as: 'courses'
+      }
+
+- $SortByCount --> can perform grouping, counting n sorting in descending order all at once
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

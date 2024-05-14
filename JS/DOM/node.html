@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Creation</title>
+    <style>
+         .box{
+            width: 300px;
+            /* height: 300px; */
+            border: 2px solid darkgreen;
+            padding: 10px;
+        }
+        .img_style{
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- createElemnt -->
+    <ul id="list1">
+        <li>abc</li>
+        <li>pqr</li>
+    </ul>
+    <button onclick="fun1()">Add_li</button>
+    <br><br><br>
+
+    <button onclick="fun2()">Add Image</button>
+    <div class="box" id="img_div"></div>
+
+    <br><br><br>
+    <div class="box" id="img_div2"></div>
+    <br><br><br>
+    
+    <ul id="list2"><li>abc</li><li>pqr</li><li>xyz</li>
+        <!-- it'll calculate the left sidde taab space also.. thats y we nedto double click the btn to remove the child -->
+        <!-- <li>abc</li>
+        <li>pqr</li>
+        <li>xyz</li> -->
+        
+    </ul>
+    <button onclick="fun4()">Remove_li</button>
+    <br><br><br>
+
+
+    <!-- removing li using cross sign (&times;) -->
+    <!-- by passing li id name in fun(id) it'll simplify the js code-->
+    <!-- there we can pass any ele on func that ele can be taken in doc -->
+    <ul>
+        <li id="li1">Suma <button onclick="fun5('li1')">&times;</button></li>
+        <li id="li2">Janu <button onclick="fun5('li2')">&times;</button></li>
+        <li id="li3">Lucky<button onclick="fun5('li3')">&times;</button></li>
+        <li id="li4">Pooja<button onclick="fun5('li4')">&times;</button></li>
+    </ul>
+    <br><br><br>
+
+    <table border="1">
+        <tbody>
+            <tr id="row1">
+                <td>1</td>
+                <td>abc</td>
+                <td>abc@gmail.com</td>
+                <td>
+                    <button onclick="rem_row()" id="child_btn">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+    <script src="node.js"></script>
+</body>
+</html>

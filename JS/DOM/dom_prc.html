@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+    <link rel="stylesheet" href="dom_prc.css" type="text/css">
+    <style>
+       
+        /* #img_div{
+            border: 2px solid darkslategray;
+            width: 400px;
+            height: 300px;
+        } */
+    </style>
+</head>
+<body>
+    
+    <!-- by id -->
+    <h1 id="demo1">Hello Suma</h1>
+
+    <p id="demo2">Suma</p>
+    <button onclick="fun1()">Click Me</button>
+    <br><br>
+
+    <input type="text" placeholder="Enter ur name" id="inp1">
+    <button onclick="fun2()">Get Name</button>
+    <p id="demo3">username is: </p>
+
+    <button onclick="fun3()">Add Image</button>
+    <div id="demo4"></div>
+
+
+    <!-- by classname -->
+    <h1 class="head_cls">Hello Peeps!!</h1>
+    <h2 class="head_cls">Good Morning :-)</h2>
+    <h3 class="head_cls">Have a good day :-)</h3>
+    <button onclick="fun4()">Add Color</button>
+
+
+    <!-- by tagname -->
+    <h4>Suma</h4>
+    <h4>Chomu</h4>
+    
+    <!--  queryselectorall -->
+    <div class="div_demo">
+        <b>Hey</b>
+        <b>Are you there!!</b>
+        <b><i>Good Morning</i></b>
+    </div>
+    <button onclick="fun5()">Get all</button>
+
+
+    <!-- queryselector -->
+    <h5>Hey Suma</h5>
+    <h5>Are you Fine??</h5>
+
+    <!-- getattribute() -->
+    <h1 class="getting" id="h1_id">Seneca Global</h1>
+
+    <!-- setattribute() -->
+    <img class="img_cls" id="img_id">
+    <button onclick="fun6()">Get Image</button>
+    <!-- <div id="img_div"></div> -->
+    <br><br><br>
+
+    <!-- oninput -->
+    <div class="main_div">
+        <div class="left_div">
+            <h1 class="h1_cls">Invitation</h1>
+            <div class="inp_div">
+                <input oninput="inp1()" placeholder="Enter Name" id="name_id" class="inp_cls">
+                <input oninput="inp2()" placeholder="Enter day" id="day_id" class="inp_cls">
+                <input oninput="inp3()" type="date" placeholder="dd/mm/yyyy" id="date_id" class="inp_cls">
+                <input oninput="inp4()" type="time" placeholder="--:-- --" id="time_id" class="inp_cls">
+                <input oninput="inp5()" placeholder="Address" id="address_id" class="inp_cls">
+                <input oninput="inp6()" placeholder="Invited by" id="invite_id" class="inp_cls">
+            </div>
+        </div>
+        <div class="right_div">
+            <h1 class="h1_cls2">Happy Birthday</h1>
+            <div class="inp_div">
+                <p id="p1" class="inp2_cls">Name</p>
+                <p id="p2" class="inp2_cls">Day</p>
+                <p id="p3" class="inp2_cls">Date</p>
+                <p id="p4" class="inp2_cls">Time</p>
+                <p id="p5" class="inp2_cls">Place</p>
+                <p id="p6" class="inp2_cls">Friends and Family</p>
+                
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- onchange() -->
+    <select  id="select_id" onchange="sel()">
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Indigo">Indigo</option>
+        <option value="Violet">Violet</option>
+    </select>
+    <div id="div_id"></div>
+    <br><br><br>
+
+    <!-- oncopy -->
+    <div id="div_id"  onmouseup="cpy()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur eum quo, quod nihil, maxime ipsum velit rerum similique optio sapiente dolorum saepe odio ex nesciunt eius fuga ipsa beatae!
+        <button id="btn_id" class="scale-up-center">Copy Paste</button>
+    </div>   
+    
+    
+    <button id="btn-login">Login</button>
+
+    <p class="para">para 1</p>
+    <p class="para">para 2</p>
+    <p class="para">para 3</p>
+    <p>para 4</p>
+
+    
+
+    <script src="dom_prc.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+    <form class="form_style">
+        <!-- form is a block-level ellement -->
+        <!-- for ele is used for hovering  -->
+        <!-- when we pass id as label for value..  -->
+        <!-- then when we click on label it'll recommend previosly entered values -->
+        <!-- required is used to indicate that filed is must to fil -->
+        <label for="demo1">Username:</label>
+        <input class="inp_style" type="text" placeholder="Enter your name" id="demo1" name="name_inp" value="" required/>
+        
+        <label for="demo2">Password: </label>
+        <input class="inp_style" type="password" placeholder="Enter Your Password" id="demo2" name="pw_inp"/>
+        
+        <label for="demo3">Email: </label>
+        <input class="inp_style" type="email" placeholder="Enter your Email" name="email_inp" id="demo3" value=""/>
+        
+        <label for="demo4">Age: </label>
+        <input class="inp_style" type="number" placeholder="Enter Your age" name="age_inp" id="demo4" min="18" max="25" style="width: 110px;"/>
+        
+        <label>Gender:</label>
+        <label  for="mal"  class="radio_style">Male</label>
+        <input type="radio" id="mal" name="gen_inp"/>
+        <label  for="fem" class="radio_style">Female</label>
+        <input type="radio" id="fem" name="gen_inp" />
+
+        <label for="demo6">City:</label>
+        <select name="city_inp" id="demo6">
+            <option value=""></option>
+            <option value="">Bhimavaram</option>
+            <option value="">Kakinada</option>
+            <option value="">Hyderabad</option>
+            <option value="">Banglore</option>
+            <option value="">Vijayawada</option>
+            <!-- when u want pre-selected value then use "selected" -->
+            <option selected>Tanuku</option>
+
+        </select>
+
+        <label>Subjects:</label>
+        <label for="sub1" class="checkbox_style">HTML</label>
+        <input type="checkbox" name="" id="sub1">
+        <label for="sub2" class="checkbox_style">CSS</label>
+        <input type="checkbox" name="" id="sub2">
+        <label for="sub3" class="checkbox_style">JS</label>
+        <input type="checkbox" name="" id="sub3">
+        <label for="sub4" class="checkbox_style">Node.JS</label>
+        <input type="checkbox" name="" id="sub4">
+        <label for="sub5" class="checkbox_style">MongoDB</label>
+        <input type="checkbox" name="" id="sub5">
+        <!-- when u want pre-checked value then use "checked" -->
+        <label for="sub6" class="checkbox_style">Java</label>
+        <input type="checkbox" name="" id="sub6" checked>
+        <!-- it is by default selected we cannot change it"checked disabled" -->
+        <label for="sub7" class="checkbox_style">Python</label>
+        <input type="checkbox" name="" id="sub7" checked disabled>
+
+        <label for="">File:</label>
+        <!-- multiple can be used to select multiple files -->
+        <input type="file" multiple>
+
+        <!-- choosing the required color -->
+        <label for="">Color</label>
+        <input type="color" value="#9AD910">
+
+        <!-- MESSAGE BOX -->
+        <label for="">Message: </label>
+        <textarea cols="30" rows="10"></textarea>
+
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

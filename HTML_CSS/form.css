@@ -1,0 +1,54 @@
+.form_style{
+    border: 5px double brown;
+    width: 70%;
+    padding: 20px;
+    margin: 200px auto; /*(tb, lr)*/
+    /* font-size: 20px; */
+
+}
+
+label{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+.inp_style{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px 10px;
+    width: 30%;
+    border: 2px solid brown;
+}
+.inp_style:focus{
+    outline: none;
+    border: none;
+    outline: 2px dotted lightslategray;
+}
+
+.inp_style::placeholder{
+    color:lightseagreen
+}
+.radio_style{
+    display: inline;
+}
+
+.checkbox_style{
+    display: inline;
+}
+
+input[type="submit"]{
+    padding: 12px 40px;
+    display: block;
+    margin: 10px auto 0px;
+    font-size: 20px;
+
+}
+input[type="submit"]:hover{
+    background-color: lightseagreen;
+    border: 5px double brown;
+    color: darkmagenta;
+}
+
+

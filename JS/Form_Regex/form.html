@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .error{
+            color: red;
+        }
+        #email_crct{
+            color:green
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <form action="">
+        <input type="email" >
+        <input type="submit"> 
+    </form> -->
+<!-- 
+    <form onsubmit="return validation()">
+        <label>Name</label>
+        <input type="text" id="name_inp" oninput="return validation()">
+        <p class="error" id="name_err"></p>
+        <label>Password</label>
+        <input type="password" id="pwd_inp" oninput="return validation()">
+        <p class="error" id="pwd_err"></p>
+        <input type="submit">
+    </form>  -->
+
+
+    <!-- REGEX -->
+    <form onsubmit="return validation2()">
+        <label>Email </label>
+        <input type="text" id="email_inp">
+        <p class="error" id="email_err"></p>
+        <p id="email_crct"></p>
+
+        <label>Password </label>
+        <input type="text" id="pwd_inp2">
+        <p class="error" id="pwd_err2"></p>
+        
+        <input type="submit">
+
+
+    </form>
+    
+
+    <script src="form.js"></script>
+</body>
+</html>

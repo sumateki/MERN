@@ -1,0 +1,235 @@
+.div_style{
+    border: 4px double darkolivegreen;
+    margin: 10px;
+    background-color: cornflowerblue;
+    display: flex; /*always add to parent*/
+    flex-wrap: nowrap; /*to avoid overflow and used to handle lots of dta in single div*/
+}
+
+.child_div1{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    /* width: 100px;
+    height: 100px; */
+}
+
+.div_style2{
+    border: 4px double darkolivegreen;
+    margin: 10px;
+    background-color: cornflowerblue;
+    display: flex; /*always add to parent*/
+    flex-wrap: wrap; /*to avoid overflow and used to handle lots of dta in single div*/
+}
+
+.child_div2{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    /* width: 100px;
+    height: 100px; */
+}
+
+.div_style3{
+    margin: 10px;
+    background-color: crimson;
+    border: 2px solid navy;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.child_div3{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+     width: 100px;
+    /*height: 100px; */
+}
+
+.div_style4{
+    margin: 10px;
+    background-color: crimson;
+    border: 2px solid navy;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.child_div4{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+     width: 100px;
+    /*height: 100px; */
+}
+
+.div_style5{
+    margin: 10px;
+    background-color: crimson;
+    border: 2px solid navy;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.child_div5{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+     width: 100px;
+    /*height: 100px; */
+}
+
+.div_style6{
+    margin: 10px;
+    background-color: crimson;
+    border: 2px solid navy;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_div6{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+     width: 100px;
+    /*height: 100px; */
+}
+
+.div_style7{
+    margin: 10px;
+    background-color: crimson;
+    border: 2px solid navy;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child_div7{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+     width: 100px;
+    /*height: 100px; */
+}
+
+.div_style8{
+    margin: 10px;
+    background-color: crimson;
+    border: 2px solid navy;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child_div8{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+     width: 100px;
+    /*height: 100px; */
+}
+
+.bg_img{
+    margin: 10px;
+    background-color: lightcyan;
+    border: 2px dotted navy;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child_div_same{
+    background-image: url(img/Cake.jpg);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+}
+.bg_img2{
+    margin: 10px;
+    background-color: lightcyan;
+    border: 2px dotted navy;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#child_div9{
+    background-image: url(img/Noodles.jpg);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+}
+
+#child_div10{
+    background-image: url(img/Biryani.jpg);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+    /* background-size: cover; */
+}
+
+#child_div11{
+    background-image: url(img/Fried\ rice.jpg);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+}
+#child_div12{
+    background-image: url(img/Burger.jpg);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+}
+#child_div13{
+    background-image: url(img/Pizza.jpg);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+}

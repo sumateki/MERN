@@ -1,0 +1,42 @@
+#ul_1{
+    background-color: lightblue;
+    list-style: none;
+    /* width:20px; */
+    /* height: 50px; */
+    margin-top: auto;
+    padding: 16px;
+  
+       
+}
+#ul_1 li{
+    display:inline;
+    margin-inline: 8px;
+    
+
+}
+#ul_1 li:hover{
+    background-color:lightcyan;
+    display: inline-block;
+
+}
+
+body{
+    background-color: lightpink;
+    margin:auto;
+}
+#f1, #f2, #f3, #f4, #f5{
+    text-decoration: none;
+}
+div img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+    width: 450px;
+    height: 350px;
+    
+
+}
+div{
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return validate()">
+        <label>UserName </label>
+        <input type="text" id="name_inp">
+        <p class="error" id="name_err"></p>
+
+        <label>Email </label>
+        <input type="text" id="email_inp">
+        <p class="error" id="email_err"></p>
+
+        <label>Password </label>
+        <input type="text" id="pwd_inp">
+        <p class="error" id="pwd_err"></p>
+
+        <label>Date of Birth </label>
+        <input type="text" id="dob_inp">
+        <p class="error" id="dob_err"></p>
+
+        <label>Phone Number </label>
+        <input type="text" id="phn_inp">
+        <p class="error" id="phn_err"></p>
+
+        <label>Alternate Number </label>
+        <input type="text" id="altph_inp">
+        <p class="error" id="altph_err"></p>
+
+
+        <input type="submit">
+    </form>
+    
+
+
+    <script src="reg_form.js"></script>
+</body>
+</html>

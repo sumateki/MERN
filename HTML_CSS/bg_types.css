@@ -1,0 +1,121 @@
+/* .demo_cls{
+    color: green;
+} */
+
+.bg_css{
+    border: 5px double green;
+    height: 300px;
+    width: 500px;
+    background-color: lightpink;
+    background-image: url(/img/webDev.jpg);
+    background-size: cover; 
+    background-position: center; 
+    
+    /*background-repeat: no-repeat;
+    background-position: top center;
+    background-position: top right;
+    background-position: center left;
+    background-position: center center;
+    background-position: bottom left;
+    background-position: bottom center;
+    background-position: bottom right; */
+    /* if the body has high content 
+    when u pass 1  image to bg as bg-img
+    what if that image  isn't cover all the body
+    then there is a solution that is*/
+    /* background-attachment: fixed;  then it'll fix to body even if u scroll the body the image will bw fixed */
+    
+}
+
+.img_style{
+    background-image: url(img/nodeJS.jpg);
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 4px double darkred;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img_style:hover{
+    
+    background-image: url(img/flipkart.jpg);
+}
+
+.clr_style{
+   width: 400px;
+   height: 300px;
+   /* adding 2 clrs to sinngle box */
+   background-image: linear-gradient(pink, blue);
+   /* towards top */
+   /* background-image: linear-gradient(to top, pink, blue); */
+/* towards right */
+   /* background-image: linear-gradient(to right,pink, blue); */
+   /* towards  bottom */
+    /* background-image: linear-gradient(to bottom, pink, blue); */
+/* towards left */
+   /* background-image: linear-gradient(to left, pink, blue);  */
+
+   /* background-image: linear-gradient(120deg, pink, blue); we can also add degree  */
+
+}
+
+.clr_style:hover{
+    background-image: linear-gradient(green, yellow);
+}
+
+.cnt_style{
+    margin: 10px;
+    border: 4px dotted darkcyan;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    font-size: 25px;
+    color: cadetblue;
+    background-image: linear-gradient(maroon, black);
+    background-clip: content-box;  /* bg effect only applies to its content not for  the border*/
+
+
+}
+
+.text1{
+    background-image: linear-gradient(olive,  black);
+    /* webkit is the keyword for the browser to access property correctly */
+    /* webkit is for google chrome */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* for ms use */
+    /* -ms-background-clip: text;
+       -ms-text-fill-color: transparent; */
+
+    /* for mozilla use */
+    /* -moz-background-clip: text;
+       -moz-text-fill-color: transparent; */
+}
+
+.text2{
+    text-transform: uppercase;
+}
+
+.text3{
+    text-transform: lowercase;
+}
+
+.text4{
+    text-transform: capitalize;
+    text-align: center;
+    /* text-align: left;
+    text-align: right; */
+}
+
+.text5{
+    text-align: justify;
+    letter-spacing: 5px; /* add space between the every letter*/
+    word-spacing: 5px; /* add space b/w every word*/
+    line-height: 1.5;
+    text-indent: 50px; /*gives tab like spce for first line */
+}
+

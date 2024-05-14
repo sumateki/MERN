@@ -1,0 +1,60 @@
+.main_style{
+    /* border: 2px solid olivedrab; */
+    /* margin: auto; */
+    width: 85%;
+    margin: 90px auto 0px; /* (top, rgt/lft,bottom) */
+}
+
+.inner_style{
+    /* border: 2px solid skyblue; */
+    /* we must take width size as low while using display:inblock
+    bcoz by defualt the width is 100%
+    based on the blocks we want in one row 
+    the width will ne calculated
+    (3/100=33.33) but take some lower than the result*/
+    width: 27%;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    /* x-axis y-axis blur spread color */
+    box-shadow: 1px 1px 5px 1px #80808082;
+
+} 
+.img_style{
+    width: 320px;
+    height: 250px;
+}
+
+.heading_div i{
+    color: #83bc2e;
+}
+
+.heading_div h1{
+    display: inline;
+    /* padding: 5px; */
+}
+
+.heading_div{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn_style{
+    background-color: #83bc2e;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid grey;
+}
+
+.btn_style:hover{
+    background-color: white;
+    color: black;
+}
+
+.inner_style:hover h1{
+    color: #83bc2e;
+}
+
+.inner_style:hover i{
+    color:black;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Function</title>
+    <style>
+        .box{
+            border: 2px  solid navy;
+            width: 200px;
+            height: 200px;
+            
+        }
+        #inp1{
+            overflow: scroll;
+        }
+
+        .img_style{
+            height: 200px;
+            width: 200px;
+        }
+
+        .btn-box{
+            border: 2px solid maroon;
+            padding: 20px;
+            margin: 10px;
+            display: none;
+            /* position: fixed; */
+        }
+        /* .crs-sign{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            
+        }
+         */
+    </style>
+</head>
+<body>
+    
+    <button onclick="fun1()">Read Message</button>
+    <p id="demo1" style="border: 2px solid navy; padding: 20px;"></p>
+
+    <button onclick="clr_msg()">Clear msg</button> <br><br>
+
+    <button onclick="fun2()">try it</button> <br><br>
+
+    <input type="text"  id="inp1">
+    <div class="box" id="demo2"></div>
+    <button onclick="main_fun()">read input</button> <br><br>
+
+    <div class="box" id="demo3"></div>
+    <button onclick="fun3()">get image</button> <br><br><br>
+
+   <!-- alsoo to apply bg clr to btn use this keyword -->
+    <button onclick="fun4(this,'div1')">btn1</button>
+    <button onclick="fun4(this,'div2')">btn2</button>
+    <button onclick="fun4(this,'div3')">btn3</button>
+
+    <div class="btn-box crs-sign" id="div1"> Inside box 1  &times;</div>
+    <div class="btn-box crs-sign" id="div2"> Inside box 2  &times;</div>
+    <div class="btn-box crs-sign" id="div3"> Inside box 3  &times;</div>
+    
+    
+    
+    <script src="timer.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 300px;
+            border: 2px solid navy;
+        }
+        .box b{
+            display: block;
+            margin: 10px;
+        }
+        .abc{
+            color: navy;
+            border: 2px  solid maroon;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .pqr{
+            box-shadow: 12px 13px 5px -3px hotpink;
+        }
+        .img_style{
+            height: 200px;
+            width: 300px;
+            border: 2px solid green;
+
+        }
+
+    </style>
+</head>
+<body>
+    <p>Para 1</p>
+    <p>Para 2</p>
+    <p>Para 3</p>
+    <button onclick="fun1()">Click Me</button>
+    <br><br>
+
+    <div class="box">
+        <b>bold 1</b>
+        <b>bold 2</b>
+        <b>bold 3</b>
+        <i> <b>bold 3</b> </i>
+    </div>
+    <button onclick="fun2()">Click Me</button>
+    <br><br>
+
+    <h1>Hello</h1>
+    <h1>Hai</h1>
+    <br><br>
+
+    <a href="https://animista.net/play/attention" id="demo1" clr="hotpink" class="abc">Link 1</a>
+    <button onclick="fun3()">Read Link</button>
+    <h2 id="demo2" class="pqr">Hello</h2>
+    <br><br>
+
+
+    <img  class="img_style" id="img_id1">
+    <button onclick="fun4()">Add_Image</button>
+    <br><br>
+
+
+    <div class="link_div">
+        <a title="value1">link1</a>
+        <a title="value2">link2</a>
+        <a title="value3">link3</a>
+    </div>
+    <button onclick="fun5()">click me</button>
+    <p id="para"></p>
+
+
+    
+    <script src="cal_tag.js"></script>
+</body>
+</html>

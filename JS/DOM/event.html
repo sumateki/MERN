@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 4px solid darkgreen;
+        }
+        .div2{
+            width: 300px;
+            height: 300px;
+            border: 4px solid darkgreen;
+        }
+        
+        .para_cls{
+            border: 2px solid navy;
+            padding: 10px;
+            color: olive;
+            width: 100px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" onmouseover="fun1()" onmouseout="fun2()" id="demo1">onmouseover Event</div>
+    <br><br>
+
+    <div class="div2" onmouseup="fun3()" onmousedown="fun4()" id="demo2"></div>
+    <br><br>
+
+    <div class="div2" ondblclick="fun5()" id="demo3"></div>
+    <br><br>
+
+    <div class="div2" id="demo4" oncopy="fun6()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi omnis rerum sapiente enim cum architecto earum? Omnis blanditiis, et repellendus, ullam aspernatur vitae deleniti amet accusantium tenetur rem doloribus! A.</div>
+    <p id="para_demo" class="para_cls">Text Copied!!</p>
+    <br><br>
+
+    <div class="div2" oncut="alert('Hello Suma')">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt vero hic excepturi magnam iusto nisi sequi! Ratione, impedit, quaerat labore, architecto praesentium minus quasi doloribus quae officia itaque aliquam.</div>
+    <br><br>
+
+    <!-- <textarea  id="txtarea" onpaste="alert('Hey Suma!! You paste the content')"></textarea> -->
+    <textarea  id="txtarea" onpaste="fun7()"></textarea>
+    <br><br>
+
+    <input oninput="fun8()" id="inp_id" placeholder="oninput event">
+    <p style="border: 2px solid red; padding: 20px;" id="para_id"></p>
+    <br><br>
+
+    <input  id="inp_id2" onfocus="fun9()" onblur="fun10()" placeholder="onfocus event"> 
+    <br><br>
+
+    <!-- onchange is only used for select tag -->
+    <select id="slct" onchange="fun11()">
+        <option value="HTML5">html</option>
+        <option value="CSS3">css</option>
+        <option value="ES6">js</option>
+        <option value="REACT">react</option>
+        <option value="NODE 11">node</option>
+
+        <!-- <option>html</option>
+        <option >css</option>
+        <option>js</option>
+        <option >react</option>
+        <option >node</option> -->
+    </select>
+    <p id="p1">The subject is: </p>
+
+    <b>bold1</b>
+    <br><br>
+
+    <textarea id="txtarea2" onselect="fun12()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perferendis ea quam, asperiores quod saepe quia aspernatur nisi facilis corporis ad, aperiam eos dolore. Amet dolor delectus natus et reiciendis!</textarea>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <script src="event.js"></script>
+</body>
+</html>

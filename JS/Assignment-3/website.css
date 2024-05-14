@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+h2{
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(27, 25, 25);
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+.card{
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);   
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.842);
+}
+img{
+    width: 100%;
+}
+#clothing, #accessories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 4%;
+
+}
+.text_sec{
+    padding-left: 10px;
+    margin: 10px auto;
+}
+
+
+.heading{
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+
+}
+
+p{
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+
+span{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+    display: block;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+    .card{
+        width: 50%;
+    }
+    
+}
+
+/*
+@media screen and (max-width: 760px),(min-width: 320px){
+    #clothing, #accessories{
+        display: flex;
+        flex-wrap: wrap; 
+        width: fit-content;
+        /* padding: 0 2%; */
+        /* width: 400px; */
+        /* justify-content: space-around; */
+    /* } 
+    .card{ */
+         
+        /* width: 145px; */
+        /* margin: 10px 0; */
+    /* } 
+    img{
+        width: 100%;
+    }  */
+
+/* } */ 
+

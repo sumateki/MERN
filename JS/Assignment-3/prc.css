@@ -1,0 +1,46 @@
+
+.card{
+    display: inline-block;
+    margin: 30px 0;
+    
+}
+
+
+#clothing, #accessory{
+    display: flex;
+    margin: 10px;
+   
+    /* flex-wrap: wrap; */
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
